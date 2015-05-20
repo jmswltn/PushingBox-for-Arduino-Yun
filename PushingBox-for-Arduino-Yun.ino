@@ -34,7 +34,7 @@ void setup()
   // initialize serial:
   Serial.begin(9600);
 
-  while (!Serial); // wait for a serial connection
+ // while (!Serial); // wait for a serial connection
 
   pinMode(pinDevid1, INPUT);
 
